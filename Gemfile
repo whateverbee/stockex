@@ -9,13 +9,13 @@ gem 'rails', '~> 5.2.3'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-# Use sqlite3 as the database for Active Record
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 gem 'stock_quote'
 gem 'font-awesome-rails'
+gem 'iex-ruby-client'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
